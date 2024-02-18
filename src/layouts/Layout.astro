@@ -4,7 +4,7 @@ import Creator from "../components/creator.astro";
 import Footer from "../components/footer.astro";
 
 interface Props {
-	title: string;
+    title: string;
 }
 
 const { title } = Astro.props;
@@ -12,34 +12,41 @@ const { title } = Astro.props;
 
 <!doctype html>
 <html lang="en" class="overflow-x-hidden" data-theme="business">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="description" content="Astro description" />
-		<meta name="viewport" content="width=device-width" />
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content="Astro description" />
+        <meta name="viewport" content="width=device-width" />
 
-		<!-- Default Favicon -->
-		<link rel="icon" href="/white.svg" type="image/svg+xml">
+        <!-- Default Favicon -->
+        <link rel="icon" href="/white.svg" type="image/svg+xml" />
 
-		<!-- Favicon for Color Preference (Replace "color-favicon.ico" with the actual filename) -->
-		<link rel="icon" href="/black.svg" type="image/svg+xml" media="(prefers-color-scheme: light)">
-		<link rel="icon" href="/white.svg" type="image/svg+xml" media="(prefers-color-scheme: dark)">
+        <link
+            rel="icon"
+            href="/black.svg"
+            type="image/svg+xml"
+            media="(prefers-color-scheme: light)"
+        />
+        <link
+            rel="icon"
+            href="/white.svg"
+            type="image/svg+xml"
+            media="(prefers-color-scheme: dark)"
+        />
 
-		<meta name="generator" content={Astro.generator} />
-		<title>{title}</title>
-	</head>
+        <meta name="generator" content={Astro.generator} />
+        <title>{title}</title>
+    </head>
 
-	<div class="min-h-[100svh] h-[100svh] w-screen flex flex-col">
+    <div class="min-h-[100svh] h-[100svh] w-screen flex flex-col">
+        <Navbar />
 
-    <Navbar/>
-  
-    <main class="flex-grow" >
-      <slot />
-    </main>
-		
-		<Creator />
+        <main class="flex-grow">
+            <slot />
+        </main>
 
-  </div>
+        <Creator />
+    </div>
+    <Footer />
 
-	<Footer />
 
 </html>
