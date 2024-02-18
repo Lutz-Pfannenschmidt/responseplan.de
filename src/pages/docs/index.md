@@ -1,5 +1,5 @@
 ---
-layout: "../../layouts/Docs.astro"
+layout: "../../layouts/Markdown.astro"
 title: "Docs"
 ---
 
