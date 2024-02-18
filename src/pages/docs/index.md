@@ -30,3 +30,12 @@ make build
 ```
 That's it! The program will start and you can begin using it.
 
+### Advanced Usage
+You can pass the following flags to the program to change its behavior:
+- `-m` / `--memory` - Memory only mode. This will disable file storage.
+- `-d` / `--debug` - Enable debug mode. This will print additional information to the console.
+- `-h` / `--help` - Print the help message.
+- `-p` / `--port` `<port>` - Change the port the server listens on. Default is 1337.
+- `-e` / `--expose` - Expose the server to the lan. This will allow other devices to connect to the server. ***[Warning]*** This can be a security risk.
+- `-o` / `--out` `<filename>` - The file to save the data to. Default is `data.responseplan`.
+- `-i` / `--in` `<filename>` - The file to load the data from. Default is `data.responseplan`.
