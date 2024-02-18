@@ -3,11 +3,7 @@ import Navbar from "../components/navbar.astro";
 import Creator from "../components/creator.astro";
 import Footer from "../components/footer.astro";
 
-interface Props {
-    title: string;
-}
-
-const { title } = Astro.props;
+const { frontmatter } = Astro.props;
 ---
 
 <!doctype html>
@@ -16,10 +12,8 @@ const { title } = Astro.props;
         <meta charset="UTF-8" />
         <meta name="description" content="Astro description" />
         <meta name="viewport" content="width=device-width" />
-
         <!-- Default Favicon -->
         <link rel="icon" href="/white.svg" type="image/svg+xml" />
-
         <link
             rel="icon"
             href="/black.svg"
@@ -32,18 +26,14 @@ const { title } = Astro.props;
             type="image/svg+xml"
             media="(prefers-color-scheme: dark)"
         />
-
         <meta name="generator" content={Astro.generator} />
-        <title>{title}</title>
+        <title>{frontmatter.title} | ResponsePlan</title>
     </head>
-
     <div class="min-h-[100svh] h-[100svh] w-screen flex flex-col">
         <Navbar />
-
-        <main class="flex-grow">
+        <main class="flex-grow prose w-1/2 mx-auto my-4">
             <slot />
         </main>
-
         <Creator />
         <Footer />
     </div>
