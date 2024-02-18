@@ -6,7 +6,7 @@ title: "Docs"
 # ResponsePlan Documentation
 This is the documentation for the ResponsePlan project. It is a work in progress and will be updated as the project progresses.
 
-## Contents
+## Table of Contents
 
 ## Installation
 1. Download the latest release for your os from the [Releases](https://github.com/Lutz-Pfannenschmidt/ResponsePlan/releases) page.
