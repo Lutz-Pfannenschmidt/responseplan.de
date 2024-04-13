@@ -49,3 +49,4 @@ You can pass the following flags to the program to change its behavior:
 - `-e` / `--expose` - Expose the server to the lan. This will allow other devices to connect to the server. ***[Warning]*** This can be a security risk.
 - `-o` / `--out` `<filename>` - The file to save the data to. Default is `data.responseplan`.
 - `-i` / `--in` `<filename>` - The file to load the data from. Default is `data.responseplan`.
+- `--tty2web` `<path>` - Use custom path for tty2web binary. Default is `tty2web`.
