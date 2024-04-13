@@ -8,6 +8,12 @@ This is the documentation for the ResponsePlan project. It is a work in progress
 
 ## Table of Contents
 
+## Optional Features
+All Optional Features are enabled if the required binary is found in the system's PATH.
+
+- **WebSSH**:
+  Allows to connect to a server via SSH in the browser. This feature requires the installation of [tty2web](https://github.com/kost/tty2web).
+
 ## Installation
 1. Install the latest version of [Nmap](https://nmap.org/).
 2. Download the latest release for your os from the [Releases](https://github.com/Lutz-Pfannenschmidt/ResponsePlan/releases) page.
