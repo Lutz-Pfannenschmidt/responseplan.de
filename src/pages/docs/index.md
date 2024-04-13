@@ -26,7 +26,7 @@ This is the documentation for the ResponsePlan project. It is a work in progress
 ```bash
 make build
 ```
-1. The executable for your system will be created in the dist folder.
+5. The executable for your system will be created in the dist folder.
 
 ## Usage
 ```bash
