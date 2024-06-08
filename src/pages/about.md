@@ -9,16 +9,15 @@ ResponsePlan is my "Projektkurs" for my Abitur (high-school diploma). It is a we
 ## Features
 - [x] Create and manage network scans
 - [x] View detailed information about each machine
-- [ ] Network Scanning
+- [x] Network Scanning
   - [x] Simple configuration
     - [x] IP Range
     - [x] Port Range / Top Ports
     - [x] OS Detection
-  - [ ] Advanced configuration
-    - [ ] *TODO*
+  - [x] Advanced configuration
 - [ ] Export Network Map
   - [ ] As SVG
   - [ ] As PDF
   - [x] As JSON
 - [x] Read and write data to a file for persistence
-- [ ] WebSSH
+- [x] WebSSH
