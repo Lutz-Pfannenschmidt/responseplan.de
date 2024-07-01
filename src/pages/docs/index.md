@@ -52,5 +52,6 @@ You can pass the following flags to the program to change its behavior:
 - `--tty2web` `<path>` - Use custom path for tty2web binary. Default is `tty2web`.
 
 ## Thesis
-<a href="/thesis.pdf" target="_blank" class="btn btn-accent btn-outline">Download the thesis</a>
+<a href="/thesis.pdf" target="_blank" class="btn btn-accent btn-outline">Download the original thesis (German)</a>
+<a href="/thesis_en.pdf" target="_blank" class="btn btn-accent btn-outline">Download the ai translated thesis (English, information may be inaccurate)</a>
 <iframe src="/thesis.pdf" width="100%" height="500px"></iframe>
