@@ -51,6 +51,6 @@ You can pass the following flags to the program to change its behavior:
 - `-i` / `--in` `<filename>` - The file to load the data from. Default is `data.responseplan`.
 - `--tty2web` `<path>` - Use custom path for tty2web binary. Default is `tty2web`.
 
-### Thesis
+## Thesis
 <a href="/thesis.pdf" target="_blank" class="btn btn-accent btn-outline">Download the thesis</a>
 <iframe src="/thesis.pdf" width="100%" height="500px"></iframe>
