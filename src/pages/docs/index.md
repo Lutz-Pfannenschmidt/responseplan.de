@@ -54,4 +54,8 @@ You can pass the following flags to the program to change its behavior:
 ## Thesis
 <a href="/thesis.pdf" target="_blank" class="btn btn-accent btn-outline">Download the original thesis (German)</a>
 <a href="/thesis_en.pdf" target="_blank" class="btn btn-accent btn-outline">Download the ai translated thesis (English, information may be inaccurate)</a>
-<iframe src="/thesis.pdf" width="100%" height="500px"></iframe>
+<div id="pdf-viewer" style="width: 100%; height: 500px;"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.2.6/pdfobject.min.js"></script>
+<script>
+    PDFObject.embed("/thesis.pdf", "#pdf-viewer");
+</script>
